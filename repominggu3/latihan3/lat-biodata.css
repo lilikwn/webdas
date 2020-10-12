@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  width: 970px;
+  margin: 0px auto;
+}
+.photo {
+  flex-grow: 1;
+}
+.profile {
+  flex-grow: 3;
+  border-top: 2px solid #d9534f;
+}
+.biodata {
+  display: flex;
+}
+.title {
+  text-align: center;
+  padding: 20px 0px;
+}
+img {
+  margin: 0 auto;
+  width: 180px;
+  border: solid white 3px;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  margin: 0 auto;
+}
+td,
+th {
+  height: 30px;
+  text-align: left;
+}
+
+.table-data tr td {
+  border-bottom: 1px solid rgba(167, 167, 167, 0.774);
+}
+.data {
+  margin-top: 15px;
+}
+
+.jadwal-container {
+  margin: 15px 0;
+  background: white;
+  padding: 30px 20px;
+}
+.krs table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.krs table tr th {
+  padding: 0px 10px 0px 10px;
+  background-color: #20485a;
+  color: white;
+}
+.krs table tr td {
+  padding: 0px 10px 0px 10px;
+}
+.set-padding {
+  padding-right: 10px;
+  margin-left: -10px;
+}
+table {
+  border-spacing: 0px;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.title-jadwal {
+  margin-bottom: 10px;
+}
+.top-align {
+  vertical-align: top;
+  padding-top: 5px;
+}
+input:hover {
+  background-color: #ac2925;
+}
+input {
+  float: right;
+  margin-top: 20px;
+  background-color: #c9302c;
+  border-color: #761c19;
+  border: 1px solid black;
+  padding: 7px;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .biodata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    width: 780px;
+    align-items: center;
+  }
+  .profile {
+    width: 80%;
+  }
+  .photo {
+    display: flex;
+    align-items: center;
+  }
+  img {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+  .jadwal-container {
+    width: 80%;
+    margin: 10px auto;
+  }
+  table {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  .item-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container {
+    width: 680px;
+  }
+}
