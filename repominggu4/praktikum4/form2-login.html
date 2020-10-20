@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        form{
+            max-width: 800px;
+            margin: auto auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="contact.php" method="post">
+        <fieldset>
+            <legend>Contact</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="your name...">
+            </p>
+            <p>
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject" id="subject" placeholder="subject...">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="your email...">
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Send">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
