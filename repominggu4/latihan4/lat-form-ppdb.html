@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form PPDB ZONASI</title>
     <link rel="stylesheet" href="lat-form-ppdb.css">
 </head>
 <body>
@@ -15,53 +15,79 @@
                 <fieldset>
                     <legend>INFO PENDAFTARAN</legend>
                     <p>
-                        <label for="nisn">NISN</label>
+                        <label for="nisn">NISN</label><br>
                         <input type="text" name="nisn" id="nisn" placeholder="Masukkan NISN Anda">
                     </p>
                     <p>
-                        <label for="asal-sekolah">Asal Sekolah</label>
+                        <label for="asal-sekolah">Asal Sekolah</label><br>
                         <input type="text" name="asal-sekolah" id="asal-sekolah" placeholder="Masukkan Asal Sekolah Anda">
                     </p>
                     <p>
-                        <label for="tahun-lulus">Tahun Lulus</label>
+                        <label for="tahun-lulus">Tahun Lulus</label><br>
                         <input type="text" name="tahun-lulus" id="tahun-lulus" placeholder="Masukkan Tahun Lulus">
+                    </p>
+                    <p>
+                        <label for="scan-ijazah">Lampiran Ijazah (Scan)</label><br>
+                        <input type="file" name="scan-ijazah" id="scan-ijazah">
                     </p>
                 </fieldset>
                 <fieldset>
                     <legend>DATA CALON PESERTA</legend>
                     <p>
-                        <label for="nama">Nama</label>
+                        <label for="nama">Nama</label><br>
                         <input type="text" id="nama" placeholder="Masukkan Nama Lengkap anda">
                     </p>
                     <p>
-                        <label for="nik">NIK</label>
+                        <label for="nik">NIK</label><br>
                         <input type="text" name="nik" id="nik" placeholder="Masukkan NIK">
                     </p>
                     <p>
-                        <label for="">Tempat/Tanggal Lahir</label>
+                        <label for="">Tempat/Tanggal Lahir</label><br>
                         <input type="text" name="" id="" placeholder="Masukkan Tempat Lahir">
                         <input type="date" name="" id="" placeholder="Masukkan Tanggal Lahir">
                     </p>
                     <p>
-                        <label for="">Alamat</label>
+                        <label for="">Alamat</label><br>
+                        <ul>
+                            <li>
+                                <label for="desa-peserta">Desa/Kel.</label>
+                                <input type="text" name="desa-peserta" id="desa-peserta" placeholder="Masukkan Nama Desa Anda">
+                            </li>
+                            <li>
+                                <label for="kecamatan-peserta">Kecamatan</label>
+                                <input type="text" name="kecamatan-peserta" id="kecamatan-peserta" placeholder="Masukkan Nama Kecamatan Anda">
+                            </li>
+                            <li>
+                                <label for="kabupaten-peserta">Kabupaten</label>
+                                <input type="text" name="kabupaten-peserta" id="kabupaten-peserta" placeholder="Masukkan Nama Kabupaten Anda">
+                            </li>
+                            <li>
+                                <label for="provinsi-peserta">Provinsi</label>
+                                <input type="text" name="provinsi-peserta" id="provinsi-peserta" placeholder="Masukkan Nama Provinsi Anda">
+                            </li>
+                        </ul>
                     </p>
                     <p>
-                        <label for="email">Email Aktif</label>
+                        <label for="email">Email Aktif</label><br>
                         <input type="email" name="email" id="email" placeholder="Masukkan Email Aktif">
+                    </p>
+                    <p>
+                        <label for="scan-ijazah">Lampiran Akte Kelahiran Yang Sudah Dilegalisir (Scan)</label><br>
+                        <input type="file" name="scan-ijazah" id="scan-ijazah">
                     </p>                    
                 </fieldset>
                 <fieldset>
                     <legend>DATA ORANG TUA</legend>
                     <p>
-                        <label for="kk">Nomer Kartu Keluarga</label>
+                        <label for="kk">Nomer Kartu Keluarga</label><br>
                         <input type="text" name="kk" id="kk" placeholder="Masukkan Nomer KK">
                     </p>
                     <p>
-                        <label for="ayah">Nama Ayah Kandung</label>
+                        <label for="ayah">Nama Ayah Kandung</label><br>
                         <input type="text" name="ayah" id="ayah" placeholder="Nama Ayah Kandung">
                     </p>
                     <p>
-                        <label for="agama-ayah">Agama Ayah</label>
+                        <label for="agama-ayah">Agama Ayah</label><br>
                         <select name="agama-ayah" id="agama-ayah">
                             <option value="Islam">Islam</option>
                             <option value="Kristen">Kristen</option>
@@ -72,15 +98,15 @@
                         </select>
                     </p>
                     <p>
-                        <label for="pekerjaan-ayah">Pekerjaan Ayah</label>
+                        <label for="pekerjaan-ayah">Pekerjaan Ayah</label><br>
                         <input type="text" name="pekerjaan" id="pekerjaan-ayah" placeholder="Pekerjaan Ayah">
                     </p>
                     <p>
-                        <label for="ibu">Nama Ibu Kandung</label>
+                        <label for="ibu">Nama Ibu Kandung</label><br>
                         <input type="text" name="ibu" id="ibu" placeholder="Nama Ibu Kandung">
                     </p>
                     <p>
-                        <label for="agama-ibu">Agama Ibu</label>
+                        <label for="agama-ibu">Agama Ibu</label><br>
                         <select name="agama-ibu" id="agama-ibu">
                             <option value="Islam">Islam</option>
                             <option value="Kristen">Kristen</option>
@@ -91,10 +117,36 @@
                         </select>
                     </p>
                     <p>
-                        <label for="pekerjaan-ibu">Pekerjaan Ibu</label>
+                        <label for="pekerjaan-ibu">Pekerjaan Ibu</label><br>
                         <input type="text" name="pekerjaan" id="pekerjaan-ibu" placeholder="Pekerjaan Ibu">
                     </p>
+                    <p>
+                        <label for="alamat-orangtua">Alamat Orang Tua</label><br>
+                        <ul>
+                            <li>
+                                <label for="desa-orangtua">Desa/Kel.</label>
+                                <input type="text" name="desa-orangtua" id="desa-orangtua" placeholder="Masukkan Nama Desa Orang Tua">
+                            </li>
+                            <li>
+                                <label for="kecamatan">Kecamatan</label>
+                                <input type="text" name="kecamatan-orangtua" id="kecamatan-orangtua" placeholder="Masukkan Nama Kecamatan Orang Tua">
+                            </li>
+                            <li>
+                                <label for="kabupaten-orangtua">Kabupaten</label>
+                                <input type="text" name="kabupaten-orangtua" id="kabupaten-orangtua" placeholder="Masukkan Nama Kabupaten Orang Tua">
+                            </li>
+                            <li>
+                                <label for="provinsi-orangtua">Provinsi</label>
+                                <input type="text" name="provinsi-orangtua" id="provinsi-orangtua" placeholder="Masukkan Nama Provinsi Orang Tua">
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <label for="scan-ijazah">Lampiran KK (Scan)</label><br>
+                        <input type="file" name="scan-ijazah" id="scan-ijazah">
+                    </p>      
                 </fieldset>
+                <button type="submit">SIMPAN</button>
             </form>
     </div>
 </body>
