@@ -9,6 +9,9 @@
             max-width: 800px;
             margin: auto auto;
         }
+        *{
+            font-family: 'Commissioner', sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -19,11 +22,11 @@
                 <label for="username">
                     Username:
                 </label>
-                <input id="username" type="text" name="username" placeholder="username">
+                <input id="username" type="text" name="username" placeholder="username" required>
             </p>
             <p>
                 <label for="password">Password:</label>
-                <input type="password" name="password" id="password" placeholder="password...">
+                <input type="password" name="password" id="password" placeholder="password..." required>
             </p>
             <p>
                 <label for="remember"><input type="checkbox" name="remember" value="remember" id="remember">Remember Me</label>

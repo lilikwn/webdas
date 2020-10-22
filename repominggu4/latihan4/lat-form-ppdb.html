@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form PPDB ZONASI</title>
     <link rel="stylesheet" href="lat-form-ppdb.css">
+    <script src="./lat-form-ppdbs.js"></script>
 </head>
 <body>
     <div class="container">
@@ -16,75 +17,75 @@
                     <legend>INFO PENDAFTARAN</legend>
                     <p>
                         <label for="nisn">NISN</label><br>
-                        <input type="text" name="nisn" id="nisn" placeholder="Masukkan NISN Anda">
+                        <input type="text" name="nisn" id="nisn" placeholder="Masukkan NISN Anda" required>
                     </p>
                     <p>
                         <label for="asal-sekolah">Asal Sekolah</label><br>
-                        <input type="text" name="asal-sekolah" id="asal-sekolah" placeholder="Masukkan Asal Sekolah Anda">
+                        <input type="text" name="asal-sekolah" id="asal-sekolah" placeholder="Masukkan Asal Sekolah Anda" required>
                     </p>
                     <p>
                         <label for="tahun-lulus">Tahun Lulus</label><br>
-                        <input type="text" name="tahun-lulus" id="tahun-lulus" placeholder="Masukkan Tahun Lulus">
+                        <input type="text" name="tahun-lulus" id="tahun-lulus" placeholder="Masukkan Tahun Lulus" required>
                     </p>
                     <p>
                         <label for="scan-ijazah">Lampiran Ijazah (Scan)</label><br>
-                        <input type="file" name="scan-ijazah" id="scan-ijazah">
+                        <input type="file" name="scan-ijazah" id="scan-ijazah" required>
                     </p>
                 </fieldset>
                 <fieldset>
                     <legend>DATA CALON PESERTA</legend>
                     <p>
                         <label for="nama">Nama</label><br>
-                        <input type="text" id="nama" placeholder="Masukkan Nama Lengkap anda">
+                        <input type="text" id="nama" placeholder="Masukkan Nama Lengkap anda" required>
                     </p>
                     <p>
                         <label for="nik">NIK</label><br>
-                        <input type="text" name="nik" id="nik" placeholder="Masukkan NIK">
+                        <input type="text" name="nik" id="nik" placeholder="Masukkan NIK" required>
                     </p>
                     <p>
                         <label for="">Tempat/Tanggal Lahir</label><br>
-                        <input type="text" name="" id="" placeholder="Masukkan Tempat Lahir">
-                        <input type="date" name="" id="" placeholder="Masukkan Tanggal Lahir">
+                        <input type="text" name="" id="" placeholder="Masukkan Tempat Lahir" required>
+                        <input type="date" name="" id="" placeholder="Masukkan Tanggal Lahir" required>
                     </p>
                     <p>
                         <label for="">Alamat</label><br>
                         <ul>
                             <li>
                                 <label for="desa-peserta">Desa/Kel.</label>
-                                <input type="text" name="desa-peserta" id="desa-peserta" placeholder="Masukkan Nama Desa Anda">
+                                <input type="text" name="desa-peserta" id="desa-peserta" placeholder="Masukkan Nama Desa Anda" required>
                             </li>
                             <li>
                                 <label for="kecamatan-peserta">Kecamatan</label>
-                                <input type="text" name="kecamatan-peserta" id="kecamatan-peserta" placeholder="Masukkan Nama Kecamatan Anda">
+                                <input type="text" name="kecamatan-peserta" id="kecamatan-peserta" placeholder="Masukkan Nama Kecamatan Anda" required>
                             </li>
                             <li>
                                 <label for="kabupaten-peserta">Kabupaten</label>
-                                <input type="text" name="kabupaten-peserta" id="kabupaten-peserta" placeholder="Masukkan Nama Kabupaten Anda">
+                                <input type="text" name="kabupaten-peserta" id="kabupaten-peserta" placeholder="Masukkan Nama Kabupaten Anda" required>
                             </li>
                             <li>
                                 <label for="provinsi-peserta">Provinsi</label>
-                                <input type="text" name="provinsi-peserta" id="provinsi-peserta" placeholder="Masukkan Nama Provinsi Anda">
+                                <input type="text" name="provinsi-peserta" id="provinsi-peserta" placeholder="Masukkan Nama Provinsi Anda" required>
                             </li>
                         </ul>
                     </p>
                     <p>
                         <label for="email">Email Aktif</label><br>
-                        <input type="email" name="email" id="email" placeholder="Masukkan Email Aktif">
+                        <input type="email" name="email" id="email" placeholder="Masukkan Email Aktif" required>
                     </p>
                     <p>
                         <label for="scan-ijazah">Lampiran Akte Kelahiran Yang Sudah Dilegalisir (Scan)</label><br>
-                        <input type="file" name="scan-ijazah" id="scan-ijazah">
+                        <input type="file" name="scan-ijazah" id="scan-ijazah" required>
                     </p>                    
                 </fieldset>
                 <fieldset>
                     <legend>DATA ORANG TUA</legend>
                     <p>
                         <label for="kk">Nomer Kartu Keluarga</label><br>
-                        <input type="text" name="kk" id="kk" placeholder="Masukkan Nomer KK">
+                        <input type="text" name="kk" id="kk" placeholder="Masukkan Nomer KK" required>
                     </p>
                     <p>
                         <label for="ayah">Nama Ayah Kandung</label><br>
-                        <input type="text" name="ayah" id="ayah" placeholder="Nama Ayah Kandung">
+                        <input type="text" name="ayah" id="ayah" placeholder="Nama Ayah Kandung" required>
                     </p>
                     <p>
                         <label for="agama-ayah">Agama Ayah</label><br>
@@ -103,7 +104,7 @@
                     </p>
                     <p>
                         <label for="ibu">Nama Ibu Kandung</label><br>
-                        <input type="text" name="ibu" id="ibu" placeholder="Nama Ibu Kandung">
+                        <input type="text" name="ibu" id="ibu" placeholder="Nama Ibu Kandung" required>
                     </p>
                     <p>
                         <label for="agama-ibu">Agama Ibu</label><br>
@@ -143,10 +144,10 @@
                     </p>
                     <p>
                         <label for="scan-ijazah">Lampiran KK (Scan)</label><br>
-                        <input type="file" name="scan-ijazah" id="scan-ijazah">
+                        <input type="file" name="scan-ijazah" id="scan-ijazah" required>
                     </p>      
                 </fieldset>
-                <button type="submit">SIMPAN</button>
+                <button type="submit" id="submit">Submit</button>
             </form>
     </div>
 </body>
