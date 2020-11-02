@@ -8,7 +8,7 @@ h1 {
 nav {
   display: flex;
   justify-content: center;
-  margin: 30px auto;
+  margin: 30px auto 10px auto;
   max-width: 1000px;
   border-bottom: 2px solid rgb(26, 115, 232);
 }
@@ -62,4 +62,10 @@ input[type="submit"] {
   width: 100px;
   padding: 5px;
   border: 1px solid rgb(26, 115, 232);
+}
+footer {
+  border-top: 2px solid rgb(26, 115, 232);
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
 }
