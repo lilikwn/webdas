@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 150px;
+}
+.image img {
+  width: 256px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: xx-large;
+}
+li {
+  list-style: none;
+}
+nav li {
+  padding: 15px 0px;
+  margin-right: 30px;
+}
+nav li:after {
+  content: "";
+  margin-top: 10px;
+  position: relative;
+  display: block;
+  width: 0px;
+  background: rgb(26, 115, 232);
+  height: 3px;
+  transition: ease-out 0.2s;
+}
+nav li:hover:after {
+  width: 100%;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 70px;
+  padding: 30px;
+}
+h2 {
+  font-size: 30px;
+}
+.social-media {
+  display: flex;
+  height: 100px;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+.social-media-icon {
+  display: inline-block;
+  width: 48px;
+  transition: ease-out 0.3s;
+}
+.social-media-icon:hover {
+  margin-top: -20px;
+}
+h2 span {
+  color: rgb(26, 115, 232);
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.overview p {
+  max-width: 1000px;
+  font-size: 24px;
+  text-align: justify;
+  padding: 15px;
+}
+.experience {
+  width: 1000px;
+  display: flex;
+}
+.skill-container {
+  width: 500px;
+}
+.skill {
+  display: flex;
+  margin-bottom: 20px;
+}
+.skill p {
+  font-size: x-large;
+  width: 150px;
+}
+.container {
+  width: 300px;
+  background-color: rgb(221, 221, 221);
+  border-radius: 15px;
+}
+.skills {
+  text-align: right;
+  border-radius: 15px;
+  padding: 6px 4px;
+}
+.css {
+  background-color: rgb(53, 149, 207);
+  width: 70%;
+}
+.js {
+  background-color: rgb(238, 226, 115);
+  width: 50%;
+}
+.html {
+  background-color: rgb(233, 98, 40);
+  width: 80%;
+}
+.skill-icon {
+  height: 30px;
+}
+.overview {
+  margin: 50px 0px;
+}
+.experience-title,
+.pengalaman-title {
+  width: 500px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+footer {
+  border-top: 2px solid rgb(26, 115, 232);
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+}
+.pengalaman {
+  border-left: 2px solid rgb(26, 115, 232);
+  margin-left: 30px;
+}
+.pengalaman li {
+  text-align: justify;
+  font-size: large;
+  list-style: disc;
+  padding: 5px 0px;
+}
