@@ -1,0 +1,45 @@
+body {
+  background: #f09c9c;
+  font-family: roboto;
+  text-align: center;
+}
+h1 {
+  color: #fff;
+}
+.ketengah {
+  margin: 10px auto;
+  width: 1000px;
+}
+.kotak {
+  background: blue;
+  width: 400px;
+  float: left;
+  height: 200px;
+  margin: 30px;
+}
+.gradient1 {
+  background: linear-gradient(rgb(0, 255, 191), rgb(102, 0, 128));
+}
+.gradient2 {
+  background: linear-gradient(
+    to right,
+    rgb(0, 255, 128),
+    rgb(255, 255, 99),
+    rgb(114, 255, 114)
+  );
+}
+.gradient3 {
+  background: radial-gradient(
+    rgb(255, 166, 166),
+    rgb(245, 245, 134),
+    rgb(134, 132, 235)
+  );
+}
+.gradient4 {
+  background: radial-gradient(
+    circle,
+    rgb(219, 62, 62),
+    rgb(253, 253, 94),
+    rgb(122, 255, 122)
+  );
+}
